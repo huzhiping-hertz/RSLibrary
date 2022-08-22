@@ -14,3 +14,8 @@ HERTZ_DLL_API int add(int a, int b) { return a + b; }
 LBClass::LBClass() {
     return;
 }
+
+int LBClass::Sub(int a, int b)
+{
+    return a - b; 
+}

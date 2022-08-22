@@ -9,6 +9,7 @@
 class HERTZ_DLL_API LBClass {
 public:
   LBClass(void);
+  int Sub(int a, int b);
 	// TODO: add your methods here.
 };
 
