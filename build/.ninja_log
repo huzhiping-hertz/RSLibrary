@@ -1,9 +1,0 @@
-# ninja log v5
-1	43	1662102514453147266	../bin/libstatic.a	140b3ab1cb7c11d1
-21	532	1662102427393144298	src/StaticLibrary/CMakeFiles/static.dir/FileHelper.cpp.o	b099fbdde5be52eb
-37	132	1662103722653188452	../bin/libdynamic.so.1.2.3	2ded3895f758dd22
-0	37	1662103722557188449	src/DynamicLibrary/CMakeFiles/dynamic.dir/RSDll.cpp.o	eccfe88d55e7557d
-132	136	1662103722653188452	../bin/libdynamic.so	31f1f603ded3113e
-1	260	1662103722781188456	src/Tester/CMakeFiles/Tester.dir/main.cpp.o	f35aa4e7b50f4f3e
-260	350	1662103722869188459	../bin/Tester	c21d4c3255d2eda9
-132	136	1662103722653188452	../bin/libdynamic.so.1	31f1f603ded3113e
