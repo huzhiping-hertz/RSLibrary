@@ -1,9 +1,5 @@
 
-#ifdef HERTZ_DLL_EXPORTS
-#define HERTZ_DLL_API __declspec(dllexport)
-#else
-#define HERTZ_DLL_API __declspec(dllimport)
-#endif
+#include "global.h"
 
 // This class is exported from the dll
 class HERTZ_DLL_API LBClass {

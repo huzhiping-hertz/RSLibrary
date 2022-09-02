@@ -9,11 +9,11 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 IF (WIN32)
     message("Compiling Under Windows Platform")
-   
+
 ELSEIF (UNIX)
     message("Compiling Under UNIX Platform")
     #使用vcpkg安装第三方库
-
+    set(CMAKE_C_FLAGS "-fPIC")
 ENDIF ()
 
 #执行文件输出路径
