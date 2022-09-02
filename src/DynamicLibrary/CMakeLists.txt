@@ -1,6 +1,9 @@
 add_compile_definitions(HERTZ_DLL_EXPORTS)
+set(library_name "dynamic")
 
-set(utility_library_name "dynamic")
-file(GLOB UTILITY_SRCS "*.cpp")
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/version.rc.in ${CMAKE_CURRENT_BINARY_DIR}/version.rc)
+set(ves_files ${CMAKE_CURRENT_BINARY_DIR}/version.rc)
 
-add_library(${utility_library_name} SHARED  ${UTILITY_SRCS})
+file(GLOB cpp_files "*.cpp")
+
+add_library(${library_name} SHARED  ${cpp_files} ${ves_files} )

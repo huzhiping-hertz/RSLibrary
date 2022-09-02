@@ -13,3 +13,7 @@ This is a template to create a dynamic library with cmake and vs2019
 
 3. How to use Library 
 
+4. Add dynamic library version information with resource file 
+
+5. Add execute version information with resource file
+

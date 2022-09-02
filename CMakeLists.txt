@@ -1,10 +1,10 @@
 ﻿cmake_minimum_required (VERSION 3.12)
 
+
+project ("RSLibrary"  VERSION 1.2.3)
+
 set(CMake_CXX_STANDARD 17)
 set(CMake_CXX_STANDARD_REQUARED ON)
-
-project ("RSLibrary")
-
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 IF (WIN32)
