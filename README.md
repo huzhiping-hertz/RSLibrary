@@ -17,3 +17,5 @@ This is a template to create a dynamic library with cmake and vs2019
 
 5. Add execute version information with resource file
 
+6. Compatible on Linux and Windows system
+
